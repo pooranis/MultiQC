@@ -486,3 +486,7 @@ module_order:
             - RNA
             - DNA
             - methylation
+    - flash:
+        module_tag:
+            - DNA
+            - RNA
