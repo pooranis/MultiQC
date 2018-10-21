@@ -24,3 +24,8 @@ script:
   - multiqc -m star -o tests/multiqc_report_dev -t default_dev -k json --file-list data/special_cases/file_list.txt
   - multiqc -f empty_dir
   - multiqc -f data/modules/gatk/BaseRecalibrator/recal_data.table
+
+# safelist
+branches:
+  only:
+  - flash
