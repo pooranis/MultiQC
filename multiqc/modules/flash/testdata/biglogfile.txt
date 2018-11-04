@@ -1,0 +1,1447 @@
+[2018-11-04 00:12:23,350 - INFO] Run paired end merging selected.
+[2018-11-04 00:12:23,384 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB1.1.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-1_S38_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-1_S38_L001_R2_001.fastq
+[2018-11-04 00:12:44,773 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-1_S38_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-1_S38_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 366788 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       366788
+[FLASH]     Combined pairs:    337505
+[FLASH]         Innie pairs:   336424 (99.68% of combined)
+[FLASH]         Outie pairs:   1081 (0.32% of combined)
+[FLASH]     Uncombined pairs:  29283
+[FLASH]     Percent combined:  92.02%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 21.204 seconds elapsed
+
+[2018-11-04 00:12:44,777 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB1.1.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-2_S39_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-2_S39_L001_R2_001.fastq
+[2018-11-04 00:13:09,058 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-2_S39_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-2_S39_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 417316 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       417316
+[FLASH]     Combined pairs:    387855
+[FLASH]         Innie pairs:   386775 (99.72% of combined)
+[FLASH]         Outie pairs:   1080 (0.28% of combined)
+[FLASH]     Uncombined pairs:  29461
+[FLASH]     Percent combined:  92.94%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 24.263 seconds elapsed
+
+[2018-11-04 00:13:09,064 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB1.1.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-3_S40_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-3_S40_L001_R2_001.fastq
+[2018-11-04 00:13:40,166 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-3_S40_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-1-3_S40_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.1.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 533927 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       533927
+[FLASH]     Combined pairs:    485846
+[FLASH]         Innie pairs:   484461 (99.71% of combined)
+[FLASH]         Outie pairs:   1385 (0.29% of combined)
+[FLASH]     Uncombined pairs:  48081
+[FLASH]     Percent combined:  90.99%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 31.078 seconds elapsed
+
+[2018-11-04 00:13:40,173 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB1.2.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-1_S56_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-1_S56_L001_R2_001.fastq
+[2018-11-04 00:14:00,263 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-1_S56_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-1_S56_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 338922 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       338922
+[FLASH]     Combined pairs:    313344
+[FLASH]         Innie pairs:   312563 (99.75% of combined)
+[FLASH]         Outie pairs:   781 (0.25% of combined)
+[FLASH]     Uncombined pairs:  25578
+[FLASH]     Percent combined:  92.45%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 20.071 seconds elapsed
+
+[2018-11-04 00:14:00,267 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB1.2.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-2_S57_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-2_S57_L001_R2_001.fastq
+[2018-11-04 00:14:13,361 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-2_S57_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-2_S57_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 221417 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       221417
+[FLASH]     Combined pairs:    205774
+[FLASH]         Innie pairs:   205289 (99.76% of combined)
+[FLASH]         Outie pairs:   485 (0.24% of combined)
+[FLASH]     Uncombined pairs:  15643
+[FLASH]     Percent combined:  92.94%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 13.076 seconds elapsed
+
+[2018-11-04 00:14:13,366 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB1.2.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-3_S58_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-3_S58_L001_R2_001.fastq
+[2018-11-04 00:14:27,705 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-3_S58_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB1-2-3_S58_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB1.2.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 239845 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       239845
+[FLASH]     Combined pairs:    218718
+[FLASH]         Innie pairs:   218240 (99.78% of combined)
+[FLASH]         Outie pairs:   478 (0.22% of combined)
+[FLASH]     Uncombined pairs:  21127
+[FLASH]     Percent combined:  91.19%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 14.322 seconds elapsed
+
+[2018-11-04 00:14:27,709 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB2.1.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-1_S47_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-1_S47_L001_R2_001.fastq
+[2018-11-04 00:14:55,290 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-1_S47_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-1_S47_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 480557 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       480557
+[FLASH]     Combined pairs:    428390
+[FLASH]         Innie pairs:   427436 (99.78% of combined)
+[FLASH]         Outie pairs:   954 (0.22% of combined)
+[FLASH]     Uncombined pairs:  52167
+[FLASH]     Percent combined:  89.14%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 27.562 seconds elapsed
+
+[2018-11-04 00:14:55,295 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB2.1.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-2_S48_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-2_S48_L001_R2_001.fastq
+[2018-11-04 00:15:20,984 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-2_S48_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-2_S48_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 451370 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       451370
+[FLASH]     Combined pairs:    414591
+[FLASH]         Innie pairs:   413725 (99.79% of combined)
+[FLASH]         Outie pairs:   866 (0.21% of combined)
+[FLASH]     Uncombined pairs:  36779
+[FLASH]     Percent combined:  91.85%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 25.670 seconds elapsed
+
+[2018-11-04 00:15:20,988 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB2.1.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-3_S49_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-3_S49_L001_R2_001.fastq
+[2018-11-04 00:15:46,949 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-3_S49_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-1-3_S49_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.1.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 451155 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       451155
+[FLASH]     Combined pairs:    407580
+[FLASH]         Innie pairs:   406611 (99.76% of combined)
+[FLASH]         Outie pairs:   969 (0.24% of combined)
+[FLASH]     Uncombined pairs:  43575
+[FLASH]     Percent combined:  90.34%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 25.936 seconds elapsed
+
+[2018-11-04 00:15:46,953 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB2.2.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-1_S65_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-1_S65_L001_R2_001.fastq
+[2018-11-04 00:16:10,699 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-1_S65_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-1_S65_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 427452 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       427452
+[FLASH]     Combined pairs:    396863
+[FLASH]         Innie pairs:   396163 (99.82% of combined)
+[FLASH]         Outie pairs:   700 (0.18% of combined)
+[FLASH]     Uncombined pairs:  30589
+[FLASH]     Percent combined:  92.84%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 23.727 seconds elapsed
+
+[2018-11-04 00:16:10,704 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB2.2.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-2_S66_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-2_S66_L001_R2_001.fastq
+[2018-11-04 00:16:30,435 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-2_S66_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-2_S66_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 357836 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       357836
+[FLASH]     Combined pairs:    332113
+[FLASH]         Innie pairs:   331446 (99.80% of combined)
+[FLASH]         Outie pairs:   667 (0.20% of combined)
+[FLASH]     Uncombined pairs:  25723
+[FLASH]     Percent combined:  92.81%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 19.713 seconds elapsed
+
+[2018-11-04 00:16:30,439 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FB2.2.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-3_S67_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-3_S67_L001_R2_001.fastq
+[2018-11-04 00:17:16,538 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-3_S67_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FB2-2-3_S67_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FB2.2.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 625000 read pairs
+[FLASH] Processed 650000 read pairs
+[FLASH] Processed 675000 read pairs
+[FLASH] Processed 700000 read pairs
+[FLASH] Processed 725000 read pairs
+[FLASH] Processed 750000 read pairs
+[FLASH] Processed 775000 read pairs
+[FLASH] Processed 800000 read pairs
+[FLASH] Processed 825000 read pairs
+[FLASH] Processed 829822 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       829822
+[FLASH]     Combined pairs:    760593
+[FLASH]         Innie pairs:   759379 (99.84% of combined)
+[FLASH]         Outie pairs:   1214 (0.16% of combined)
+[FLASH]     Uncombined pairs:  69229
+[FLASH]     Percent combined:  91.66%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 46.080 seconds elapsed
+
+[2018-11-04 00:17:16,544 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC1.1.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-1_S53_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-1_S53_L001_R2_001.fastq
+[2018-11-04 00:17:34,801 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-1_S53_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-1_S53_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 328924 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       328924
+[FLASH]     Combined pairs:    306160
+[FLASH]         Innie pairs:   305405 (99.75% of combined)
+[FLASH]         Outie pairs:   755 (0.25% of combined)
+[FLASH]     Uncombined pairs:  22764
+[FLASH]     Percent combined:  93.08%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 18.239 seconds elapsed
+
+[2018-11-04 00:17:34,805 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC1.1.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-2_S54_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-2_S54_L001_R2_001.fastq
+[2018-11-04 00:17:46,555 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-2_S54_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-2_S54_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 206156 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       206156
+[FLASH]     Combined pairs:    191447
+[FLASH]         Innie pairs:   190905 (99.72% of combined)
+[FLASH]         Outie pairs:   542 (0.28% of combined)
+[FLASH]     Uncombined pairs:  14709
+[FLASH]     Percent combined:  92.87%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 11.733 seconds elapsed
+
+[2018-11-04 00:17:46,560 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC1.1.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-3_S55_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-3_S55_L001_R2_001.fastq
+[2018-11-04 00:17:59,838 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-3_S55_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-1-3_S55_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.1.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 236014 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       236014
+[FLASH]     Combined pairs:    220135
+[FLASH]         Innie pairs:   219487 (99.71% of combined)
+[FLASH]         Outie pairs:   648 (0.29% of combined)
+[FLASH]     Uncombined pairs:  15879
+[FLASH]     Percent combined:  93.27%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 13.251 seconds elapsed
+
+[2018-11-04 00:17:59,842 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC1.2.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-1_S71_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-1_S71_L001_R2_001.fastq
+[2018-11-04 00:18:15,859 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-1_S71_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-1_S71_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 280761 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       280761
+[FLASH]     Combined pairs:    260553
+[FLASH]         Innie pairs:   260084 (99.82% of combined)
+[FLASH]         Outie pairs:   469 (0.18% of combined)
+[FLASH]     Uncombined pairs:  20208
+[FLASH]     Percent combined:  92.80%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 15.998 seconds elapsed
+
+[2018-11-04 00:18:15,863 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC1.2.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-2_S72_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-2_S72_L001_R2_001.fastq
+[2018-11-04 00:18:30,531 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-2_S72_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-2_S72_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 252113 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       252113
+[FLASH]     Combined pairs:    233913
+[FLASH]         Innie pairs:   233592 (99.86% of combined)
+[FLASH]         Outie pairs:   321 (0.14% of combined)
+[FLASH]     Uncombined pairs:  18200
+[FLASH]     Percent combined:  92.78%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 14.650 seconds elapsed
+
+[2018-11-04 00:18:30,537 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC1.2.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-3_S73_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-3_S73_L001_R2_001.fastq
+[2018-11-04 00:18:41,381 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-3_S73_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC1-2-3_S73_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC1.2.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 185093 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       185093
+[FLASH]     Combined pairs:    172002
+[FLASH]         Innie pairs:   171651 (99.80% of combined)
+[FLASH]         Outie pairs:   351 (0.20% of combined)
+[FLASH]     Uncombined pairs:  13091
+[FLASH]     Percent combined:  92.93%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 10.825 seconds elapsed
+
+[2018-11-04 00:18:41,385 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC2.1.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-1_S62_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-1_S62_L001_R2_001.fastq
+[2018-11-04 00:19:05,492 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-1_S62_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-1_S62_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 417457 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       417457
+[FLASH]     Combined pairs:    392921
+[FLASH]         Innie pairs:   391885 (99.74% of combined)
+[FLASH]         Outie pairs:   1036 (0.26% of combined)
+[FLASH]     Uncombined pairs:  24536
+[FLASH]     Percent combined:  94.12%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 24.087 seconds elapsed
+
+[2018-11-04 00:19:05,496 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC2.1.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-2_S63_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-2_S63_L001_R2_001.fastq
+[2018-11-04 00:19:26,898 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-2_S63_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-2_S63_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 368973 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       368973
+[FLASH]     Combined pairs:    347644
+[FLASH]         Innie pairs:   346813 (99.76% of combined)
+[FLASH]         Outie pairs:   831 (0.24% of combined)
+[FLASH]     Uncombined pairs:  21329
+[FLASH]     Percent combined:  94.22%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 21.383 seconds elapsed
+
+[2018-11-04 00:19:26,902 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC2.1.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-3_S64_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-3_S64_L001_R2_001.fastq
+[2018-11-04 00:19:27,150 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-3_S64_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-1-3_S64_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.1.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 2048 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       2048
+[FLASH]     Combined pairs:    916
+[FLASH]         Innie pairs:   912 (99.56% of combined)
+[FLASH]         Outie pairs:   4 (0.44% of combined)
+[FLASH]     Uncombined pairs:  1132
+[FLASH]     Percent combined:  44.73%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 0.230 seconds elapsed
+
+[2018-11-04 00:19:27,153 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC2.2.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-1_S10_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-1_S10_L001_R2_001.fastq
+[2018-11-04 00:19:46,121 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-1_S10_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-1_S10_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 316392 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       316392
+[FLASH]     Combined pairs:    294904
+[FLASH]         Innie pairs:   293796 (99.62% of combined)
+[FLASH]         Outie pairs:   1108 (0.38% of combined)
+[FLASH]     Uncombined pairs:  21488
+[FLASH]     Percent combined:  93.21%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 18.949 seconds elapsed
+
+[2018-11-04 00:19:46,127 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC2.2.2_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-2_S11_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-2_S11_L001_R2_001.fastq
+[2018-11-04 00:20:22,598 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-2_S11_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-2_S11_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 325000 read pairs
+[FLASH] Processed 350000 read pairs
+[FLASH] Processed 375000 read pairs
+[FLASH] Processed 400000 read pairs
+[FLASH] Processed 425000 read pairs
+[FLASH] Processed 450000 read pairs
+[FLASH] Processed 475000 read pairs
+[FLASH] Processed 500000 read pairs
+[FLASH] Processed 525000 read pairs
+[FLASH] Processed 550000 read pairs
+[FLASH] Processed 575000 read pairs
+[FLASH] Processed 600000 read pairs
+[FLASH] Processed 617308 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       617308
+[FLASH]     Combined pairs:    577596
+[FLASH]         Innie pairs:   576060 (99.73% of combined)
+[FLASH]         Outie pairs:   1536 (0.27% of combined)
+[FLASH]     Uncombined pairs:  39712
+[FLASH]     Percent combined:  93.57%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 36.451 seconds elapsed
+
+[2018-11-04 00:20:22,602 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FC2.2.3_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-3_S12_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-3_S12_L001_R2_001.fastq
+[2018-11-04 00:20:40,817 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-3_S12_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FC2-2-3_S12_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.3_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.3_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.3_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.3_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FC2.2.3_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 275000 read pairs
+[FLASH] Processed 300000 read pairs
+[FLASH] Processed 304567 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       304567
+[FLASH]     Combined pairs:    286396
+[FLASH]         Innie pairs:   285309 (99.62% of combined)
+[FLASH]         Outie pairs:   1087 (0.38% of combined)
+[FLASH]     Uncombined pairs:  18171
+[FLASH]     Percent combined:  94.03%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 18.195 seconds elapsed
+
+[2018-11-04 00:20:40,821 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o FTC1.1.1_merged -d /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged/ /mnt/EFS/user_uploads/7271015b7ddd/inputs/FTC1-1-1_S4_L001_R1_001.fastq /mnt/EFS/user_uploads/7271015b7ddd/inputs/FTC1-1-1_S4_L001_R2_001.fastq
+[2018-11-04 00:20:54,238 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FTC1-1-1_S4_L001_R1_001.fastq
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/inputs/FTC1-1-1_S4_L001_R2_001.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FTC1.1.1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FTC1.1.1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FTC1.1.1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FTC1.1.1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/7271015b7ddd/outputs/merged//FTC1.1.1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 100000 read pairs
+[FLASH] Processed 125000 read pairs
+[FLASH] Processed 150000 read pairs
+[FLASH] Processed 175000 read pairs
+[FLASH] Processed 200000 read pairs
+[FLASH] Processed 225000 read pairs
+[FLASH] Processed 250000 read pairs
+[FLASH] Processed 260829 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       260829
+[FLASH]     Combined pairs:    243725
+[FLASH]         Innie pairs:   239790 (98.39% of combined)
+[FLASH]         Outie pairs:   3935 (1.61% of combined)
+[FLASH]     Uncombined pairs:  17104
+[FLASH]     Percent combined:  93.44%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 13.398 seconds elapsed
+
