@@ -97,7 +97,7 @@ class MultiqcModule(BaseMultiqcModule):
             name = re.search(r'Input files\:\n\[FLASH\]\s+(.+?)\n', nlog)
         if not name:
             return None
-        name = name[1]
+        name = name.group(1)
         name = self.clean_s_name(name, root)
         return name
 
